@@ -86,7 +86,55 @@ fun ProfileCard() {
             Divider()
 
             Spacer(modifier = Modifier.height(16.dp))
+
+
+            // Nombre en negrita
+            Text(
+                text = "Julian Godoy Arias",
+                fontSize = 22.sp,
+                fontWeight = FontWeight.Bold
+            )
+
+            // Rol
+            Text(
+                text = "Ingenieria de sistemas",
+                fontSize = 16.sp,
+                color = Color.Gray
+            )
+
+            // Edad
+            Text(text = "Edad", fontWeight = FontWeight.Bold, fontSize = 12.sp)
+            Text(text = "19 años")
+
+            Spacer(modifier = Modifier.height(8.dp))
+
+            // Correo
+            Text(text = "Correo", fontWeight = FontWeight.Bold, fontSize = 12.sp)
+            Text(text = "Jgodoy218@unab.edu.co", color = MaterialTheme.colorScheme.primary)
+
+            Spacer(modifier = Modifier.height(8.dp))
+
+            // Ciudad
+            Text(text = "Ciudad", fontWeight = FontWeight.Bold, fontSize = 12.sp)
+            Text(text = "Bucaramanga")
+
+            Spacer(modifier = Modifier.height(16.dp))
+
+            Divider()
+
+            Spacer(modifier = Modifier.height(16.dp))
+            // Botón inferior
+            Button(
+                onClick = { /* Acción */ },
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                Text("Contactar")
+            }
+
         }
     }
 }
+
+
+
 
