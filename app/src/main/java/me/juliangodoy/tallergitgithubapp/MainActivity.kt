@@ -123,12 +123,31 @@ fun ProfileCard() {
             Divider()
 
             Spacer(modifier = Modifier.height(16.dp))
+
+            // Sección descriptiva
+            Text(
+                text = "Mi Materia Favorita",
+                fontWeight = FontWeight.Bold,
+                fontSize = 12.sp
+            )
+
+            Spacer(modifier = Modifier.height(8.dp))
+
+            Text(
+                text = "Me gusta todo lo que tiene que ver con la programacion como la materia de tecnologias moviles, siento que desarrolla nuevos aprendizajes para mi",
+                textAlign = TextAlign.Center
+            )
+
+
             // Botón inferior
+            Spacer(modifier = Modifier.height(250.dp))
+
             Button(
-                onClick = { /* Acción */ },
+                onClick = { },
                 modifier = Modifier.fillMaxWidth()
             ) {
                 Text("Contactar")
+
             }
 
         }
